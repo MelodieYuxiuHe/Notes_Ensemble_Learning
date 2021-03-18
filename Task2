@@ -1,0 +1,44 @@
+2.1 Regression
+Boston dataset application
+
+Models:
+(Linear regression model
+OLS - extension: quadratic terms/GAM/
+decision tree 
+
+Compare linear regression and decision tree:
+Decision tree has stronger explaination power compare to linear regression
+Parameters to tune:
+
+criterion：{“ mse”，“ friedman_mse”，“ mae”}
+splitter
+max_depth
+min_samples_split
+min_samples_leaf
+min_weight_fraction_leaf
+
+
+svr)
+
+Model evaluation:
+
+Feature Engineering:
+add penalty
+cross validation
+L1/L2 regularization (lasso Ridge)
+reduce dimension (PCA)
+
+2.2 Classification
+Iris dataset
+
+FP/FN/TP/TN
+Accuracy
+Recall Rate
+F1
+ROC
+AUC
+
+Naive Bayes
+SVM
+
+
