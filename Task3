@@ -1,0 +1,36 @@
+Feature Engineering:
+
+1) Forward selection: base on AIC, ols and forward selection
+
+return a model with the best AIC score
+
+2) Apply Ridge - L2
+
+reg_rid = linear_model.Ridge(alpha=.5)
+reg_rid.fit(X,y)
+reg_rid.score(X,y)
+
+3) Apply Lasso - L1
+
+reg_lasso = linear_model.Lasso(alpha = 0.5)
+reg_lasso.fit(X,y)
+reg_lasso.score(X,y)
+
+Parameter tuning for 𝜆:
+GridSearchCV/RandomizedSearchCV
+
+
+2.2 Classification model
+
+Step1: 
+EDA
+Select feature:
+
+Select model:
+Logistic Regression
+Decision Tree
+SVM （hyper plane)
+
+
+
+
