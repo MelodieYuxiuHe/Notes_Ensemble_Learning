@@ -1,0 +1,23 @@
+2.1(5) Hyper-parameter
+
+Parameter Tuning
+
+In essence, this is an optimization problem. 
+
+Parameter and hyper-parameter:
+𝜆 - after having the 𝜆 value, we will be able to work on optimizing w using OLS or gradient descent.
+hyper parameter: we cannot have the optimal value using OLS or gradient descent
+
+In this chapter, we will explore how to tune the hyper-parameter:
+
+GridSearchCV:
+list all the possible combinations of parameters
+run each models using these combinations
+evaluate the model performance using metric (ROC, Accuracy etc)
+
+RandomizedSearchCV:
+when the increase of the number of hyper parameters to tune, gridsearchCV will take long.
+RandomizedSearchCV reduce the computation cost
+
+Application:
+SVR
