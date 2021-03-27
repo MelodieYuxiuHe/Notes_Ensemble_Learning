@@ -1,0 +1,17 @@
+Classification model
+
+1) Example:
+IRIS dataset
+step 1: feature selection
+setp 2: select criteria for model selection
+
+In the classificatio problem, we want to know how well the model perform on each classification group.
+TP/TN/FP/FN
+
+Accuracy: What's the percentage of the 'corrected classified' sample? (For this criteria, the numerator is all "True" groups (true positive and true negative), the denominator is all the sample)
+
+PRE：In terms of the predicted positive sample, how many are correctly classified? (The denominator is all the 'PREDICTED Positive group' TP, FP)
+
+recall: In terms of th real positive sample, how many are correctly classified? (The denominator is all the 'Positive sample', TP, FN - should be positive, but falsely classified as negative)
+
+ROC: y-axis to be NP, x-axis to be TP, the area under the curver. The larger the area, the better the model.
