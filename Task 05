@@ -22,5 +22,31 @@ ROC: y-axis to be NP, x-axis to be TP, the area under the curver. The larger the
 3) Models:
 
 Logistic Regression:
-Change the linear regression result to fall into the interval ot [0,1]
+Change the linear regression result to fall into the interval ot [0,1] - logistic function
+
+Classification model based on probability:
+3.1) Linear classification:
+Bayesian Rule: prior distribution
+dimension reduction: we hope after performing the dimension reduction, the variance within a group can be small AND the varianc across group can be large
+
+3.2) Naive Bayes
+Assumption: no correlation between features 
+it simplified the problem, but popular in practice （e.g. news classification, span classification)
+
+Decision Tree:
+'Most frequent class'
+
+Support Vector Machine
+
+strong adaptability?
+
+Non-linear support vecto machine
+
+project dat to higher dimensnion - 
+
+Kernel function
+ - polynomial kernel
+ - Gaussian Kernel
+ - Sigmoid kernel
+ - Cosine_similarity
 
