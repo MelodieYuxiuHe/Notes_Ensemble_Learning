@@ -5,6 +5,7 @@ IRIS dataset
 step 1: feature selection
 setp 2: select criteria for model selection
 
+2) Criteria:
 In the classificatio problem, we want to know how well the model perform on each classification group.
 TP/TN/FP/FN
 
@@ -15,3 +16,11 @@ PRE：In terms of the predicted positive sample, how many are correctly classifi
 recall: In terms of th real positive sample, how many are correctly classified? (The denominator is all the 'Positive sample', TP, FN - should be positive, but falsely classified as negative)
 
 ROC: y-axis to be NP, x-axis to be TP, the area under the curver. The larger the area, the better the model.
+
+(a list of possible criteria for model evaluation)
+
+3) Models:
+
+Logistic Regression:
+Change the linear regression result to fall into the interval ot [0,1]
+
