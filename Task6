@@ -1,0 +1,16 @@
+Model evaluation and parameter tuning for classification model
+
+1)GridSearchCV
+2)RandomizedSearchCV 
+
+compare these two methods, randomized search CV took significantly less time.
+however, the gridsearch CV returned slightly better model. (which makes sense because of the 'brute force' style search)
+
+3)Matrix and ROC curve (for binary classification problem)
+TP: 40
+TN: 71
+FP: 1
+FN: 2
+
+Exercise:
+
